@@ -1,0 +1,68 @@
+\documentclass[a4paper]{exam}
+
+\usepackage{amsfonts,amsmath,amsthm}
+\usepackage[a4paper]{geometry}
+\usepackage{xcolor}
+\usepackage{wasysym}
+
+\newcommand\N{\ensuremath{\mathbb{N}}}
+\newcommand\union{\cup}
+\newcommand\interx{\cap}
+
+\header{CS/MATH 113}{WC08: Sets}{Spring 2025}
+\footer{}{Page \thepage\ of \numpages}{}
+\runningheadrule
+\runningfootrule
+
+% \printanswers
+
+\qformat{{\large\bf \thequestion. \thequestiontitle}\hfill}
+\boxedpoints
+
+\title{Weekly Challenge 08: Sets}
+\author{CS/MATH 113 Discrete Mathematics}
+\date{Spring 2025}
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+    \titledquestion{Trichotomy}
+    Consider the following three sets:
+    \begin{align*}
+        \Sigma & = \{x \subseteq \mathbb{N} |\; x = \{1, 2,  \dots n\}, \text{ for } n \in \mathbb{Z}^+\}&\\
+        \Pi & = \{ X \times Y|\; X,Y \in \Sigma\}&\\
+        \Gamma & = \{P(X)|\; X \in \Sigma\}
+    \end{align*}
+    With this we define two new relations $\smiley$ and $\frownie$ on $\Sigma$, $\Gamma$ and $\Pi$  as follows:  
+    \begin{itemize}  
+        \item For sets $X$ and $Y$, $X \frownie Y$ if $\forall x (x\in A \implies x\in Y)$  
+        \item For sets $X$ and $Y$, $X \smiley Y$ if $\forall x (x\in A \iff x\in Y)$  
+    \end{itemize} 
+
+    Prove or disprove each of the following claims
+    \begin{parts}
+        \part Given any $x$ and $y$ in $\Sigma$, at least one of the three conditions are always true, $x \smiley y$, $x \frownie y$ or $y \frownie x$.  
+        \begin{solution}  
+            % Enter solution here.  
+        \end{solution}
+        \part Given any $x$ and $y$ in $\Pi$, at least one of the three conditions are always true, $x \smiley y$, $x \frownie y$ or $y \frownie x$.  
+        \begin{solution}  
+            % Enter solution here.  
+        \end{solution}
+        \part Given any $x$ and $y$ in $\Gamma$, at least one of the three conditions are always true, $x \smiley y$, $x \frownie y$ or $y \frownie x$.  
+        \begin{solution}  
+            % Enter solution here.  
+        \end{solution}
+    \end{parts}
+    You have to prove any lemma/claim you use in your proof that ywe have not covered in class.
+
+\end{questions}
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+
