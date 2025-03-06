@@ -1,4 +1,4 @@
-# Weekly Challenge 05: Sets
+# Weekly Challenge 06: Sets
 # CS/MATH 113 Discrete Mathematics, Spring 2025
 ***
 
